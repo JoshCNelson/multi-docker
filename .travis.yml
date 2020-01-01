@@ -16,7 +16,7 @@ after_success:
   # log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # take those images and push them to docker hub
-  - docker push jnelson/multi-client
-  - docker push jnelson/multi-nginx
-  - docker push jnelson/multi-server
-  - docker push jnelson/multi-worker
+  - docker push jnelson62/multi-client
+  - docker push jnelson62/multi-nginx
+  - docker push jnelson62/multi-server
+  - docker push jnelson62/multi-worker
